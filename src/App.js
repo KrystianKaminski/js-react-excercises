@@ -1,7 +1,11 @@
 import React from 'react'
+import DisplayMyName from './DisplayName'
 
 const App = () => (
-  <h1>Hello World!</h1>
+  <div>
+    <h1>Hello World!</h1>
+    <DisplayMyName/>
+  </div>
 )
 
 export default App
